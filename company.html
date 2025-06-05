@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/iconsfont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Пироги & М'ясо</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <a href="index.html" class="header__logo">
+                    <img class="header__logo__image" width="80px" height="80px" src="img/logo.PNG" alt="Логотип">
+                </a>
+                <div class="header__end">
+                    <div class="header__lang">
+                        <div class="dropdown">
+                            <a class="dropbtn" onclick="toggleDropdown()">UK</a>
+                            <div class="dropdown-content" id="myDropdown">
+                                <a href="#">ENGLISH</a>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="header__burger">
+                        <div class="navbar">
+                            <input type="checkbox" id="navbar-toggle" class="navbar-toggle">
+                            <label for="navbar-toggle" class="navbar-toggle-label">
+                                <span class="_icon-burger"></span>
+                            </label>
+                            <div class="navbar-menu">
+                                <a class="close-button _icon-close" onclick="closeNavbar()"> </a>
+                                <ul class="navbar-nav">
+                                    <li>
+                                        <h2 class="nav-name1">Контакти</h2>
+                                    </li>
+                                    <li class="nav-item _icon-map"><a
+                                            href="https://maps.app.goo.gl/SNFrMzxgGjtKcUT58?g_st=ic"
+                                            target="_blank">Проспект Шевченка, 8/3, Одеса, Одеська область, 65000</a>
+                                    </li>
+                                    <li class="nav-item _icon-tel"><a href="tel:+380487375191">+380487375191</a></li>
+                
+                                    <li>
+                                        <h2 class="nav-name1">Ми в соцмережах</h2>
+                                    </li>
+                                    <li class="nav-item _icon-facebook"><a href="https://m.facebook.com/ochag.odessa"
+                                            target="_blank">Facebook</a></li>
+                                <li class="nav-item _icon-instagram"><a href="https://instagram.com/pirogi.myaso?igshid=NTc4MTIwNjQ2YQ=="
+                                        target="_blank">Instagram</a></li>
+                                    <li class="nav-item _icon-privacy"><a href="#">Iнформацiя про компанiю</a></li>
+                                    <li class="nav-item _icon-privacy"><a href="#">Умови користування</a></li>
+                                    <li class="nav-item _icon-privacy"><a href="#">Полiтика конфiденцiйностi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="overlay" onclick="closeNavbar()"></div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="menu_main">
+            <div class="container">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="pirogi.html">Осетинськi пироги</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="company.html">Страва для компанії</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="4meat4fish.html">До м’яса, риби та птиці</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="breakfast.html">Сніданки</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="salad.html">Салати</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="snack.html">Закуски</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="barbeque.html">Мангал</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="deserts.html">Солодко i смачно</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="nonalco.html">Безалкогольнi напої</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="alcohol.html">Алкогольнi напої</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__pirogi__container">
+                <div class="pirogi_name">
+                    <a class="list-name">Страва для компанії</a>
+                </div>
+                <ul>
+                    <li class="list-item">
+                        <div class="list-item-text">
+                            <span class="list-item-name">Садж м‘ясний</span>
+                            <span class="list-item-price">1400 грн</span>
+                            <span class="list-item-info"></span>
+                        </div>
+                        
+                    </li>
+                    <li class="list-item">
+                        <div class="list-item-text">
+                            <span class="list-item-name">Вирiзка гриль з телятини</span>
+                            <span class="list-item-price">1770 грн</span>
+                            <span class="list-item-info"></span>
+                        </div>
+                        <div class="list-item-image">
+                            <img class="item-image" src="img/telyat.jpg" width="150px" height="100px" loading="lazy"
+                                >
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-item-text">
+                            <span class="list-item-name">Бараняча лопатка з овочами</span>
+                            <span class="list-item-price">1570 грн</span>
+                            <span class="list-item-info"></span>
+                        </div>
+                        <div class="list-item-image">
+                            <img class="item-image" src="img/baran.jpg" width="150px" height="100px" loading="lazy"
+                                alt="Пиріг з гарбузом">
+                        </div>
+                    </li>
+                </ul>
+                <div class="pirogi_name">
+                    <a class="list-name">Iншi роздiли</a>
+                </div>
+                <div class="menu">
+                    <div class="menu-list">
+                        <a href="pirogi.html" class="menu-list_item">Осетинськi пироги <img width="15px" class="arrow"
+                                src="img/arrow.svg"></a>
+                        <a href="company.html" class="menu-list_item">Страва для компанії <img width="15px" class="arrow"
+                                src="img/arrow.svg"></a>
+                        <a href="breakfast.html" class="menu-list_item">Сніданки <img width="15px" class="arrow" src="img/arrow.svg"></a>
+                        <a href="dish.html" class="menu-list_item">Основнi страви <img width="15px" class="arrow" src="img/arrow.svg"></a>
+                        <a href="kids.html" class="menu-list_item">Дитяче меню <img width="15px" class="arrow" src="img/arrow.svg"></a>
+                        <a href="salad.html" class="menu-list_item">Салати <img width="15px" class="arrow" src="img/arrow.svg"></a>
+                        <a href="snack.html" class="menu-list_item">Закуски <img width="15px" class="arrow" src="img/arrow.svg"></a>
+                        <a href="barbeque.html" class="menu-list_item">Мангал <img width="15px" class="arrow" src="img/arrow.svg"></a>
+                        <a href="deserts.html" class="menu-list_item">Солодко і смачно <img width="15px" class="arrow"
+                                src="img/arrow.svg"></a>
+                        <a href="nonalco.html" class="menu-list_item">Безалкогольнi напої <img width="15px" class="arrow"
+                                src="img/arrow.svg"></a>
+                        <a href="alcohol.html" class="menu-list_item">Алкогольнi напої <img width="15px" class="arrow"
+                                src="img/arrow.svg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="main_info__container">
+                <ul class="info__items">
+                    <li class="item-info ">
+                        <span class="info-item-icon _icon-wifi"></span>
+                        <div class="info-item-block">
+                            <span class="info-item-name">WiFi:</span>
+                            <span class="info-item-text">1234567888</span>
+                        </div>
+                    </li>
+                    <li class="item-info ">
+                        <span class="info-item-icon _icon-time"></span>
+                        <div class="info-item-block">
+                            <span class="info-item-name">Робочiй час:</span>
+                            <span class="info-item-text">10:00 - 22:00</span>
+                        </div>
+                    </li>
+                    <li class="item-info ">
+                        <span class="info-item-icon _icon-map"></span>
+                        <div class="info-item-block">
+                            <a class="info-item-name">Адреса:</a>
+                            <a href="https://maps.app.goo.gl/SNFrMzxgGjtKcUT58?g_st=ic" class="info-item-text">Проспект Шевченка,
+                                8/3,
+                                Одеса, Одеська область, 65000</a>
+                        </div>
+                    </li>
+                    <li class="item-info ">
+                        <span class="info-item-icon _icon-tel"></span>
+                        <div class="info-item-block">
+                            <a class="info-item-name ">Телефон:</a>
+                            <a href="tel:+380487375191" class="info-item-text">+380487375191</a>
+                            <a href="tel:+380487365191" class="info-item-text">+380487365191</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="additional_info__container">
+                <ul>
+                    <li class="nav-name">Контакти</li>
+                    <li class="nav-item-info">Проспект Шевченка, 8/3, Одеса, Одеська область, 65000</li>
+                    <li class="nav-item-info"><a class="no_blue" href="tel:+380487375191">+380487375191</a></li>
+                    <li class="nav-item-info"><a class="no_blue" href="tel:+380487365191">+380487365191</a></li>
+                    
+                    <li class="nav-name">Робочий час</li>
+                    <li class="nav-item-info">10:00 - 22:00</li>
+                    <li class="nav-name">Ми в соцмережах</li>
+                    <li class="nav-item-info _icon-instagram"><a class="no_blue"
+                            href="https://instagram.com/pirogi.myaso?igshid=NTc4MTIwNjQ2YQ==" target="_blank">Instagram</a></li>
+                    <li class="nav-item-info _icon-facebook"><a class="no_blue" href="https://m.facebook.com/ochag.odessa"
+                            target="_blank">Facebook</a></li>
+                    <li class="nav-name __map">На картi</li>
+                    <li><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10994.900644652764!2d30.7521483!3d46.4541425!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633e9f7ad2d47%3A0xea9058447e8f72e6!2z0J_QuNGA0L7Qs9C4INC4INCc0Y_RgdC-!5e0!3m2!1sru!2sua!4v1688933023529!5m2!1sru!2sua"
+                            width="100%" height="250" style="border-radius:10px; border: none;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                </ul>
+                <div class="usage_info">
+                    <a class="info_usage" href="">Полiтика конфiденцiйностi</a>
+                    <a class="info_usage" href="">Умови користування</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
